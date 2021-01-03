@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Public Sans, sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.02em;
+  line-height: 1.6em;
+}
+
+.section {
+  padding: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 30px;
+  height: auto;
+}
+
+.main-btn {
+  background: linear-gradient(90deg, #31d350 0%, #2bb7da 100%);
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-family: Public Sans, sans-serif;
+  font-weight: 500;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.logo-white {
+  color: white;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  border-bottom: 0px solid transparent;
+  color: #9698a6;
+  padding: 20px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+a:hover {
+  border-bottom: 2px solid #31d35c;
+}
+
+.link-active {
+  color: #31d35c;
+}
+
+.social-container {
+  display: flex;
+  margin-top: 20px;
+}
+
+.social-container .social-links {
+  padding: 5px;
+  font-size: 20px;
+  color: white;
+  border: none;
+}
+
+.social-container .social-links:hover {
+  border-bottom: none;
+  color: #31d35c;
+}
