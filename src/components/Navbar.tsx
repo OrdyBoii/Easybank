@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { FaBars } from "react-icons/fa";
@@ -84,12 +83,7 @@ export default function Navbar() {
         Skip to content
       </a>
       <div className="container nav-container">
-        <Image
-          src="/logo.svg"
-          alt="Easybank logo"
-          width={140}
-          height={20}
-        />
+        <img src={/logo.svg} alt="Easybank logo">
         <nav>
           <ul className="navbar">
             <li>
@@ -160,7 +154,7 @@ export default function Navbar() {
           onClick={requestInvite}>
           Request Invite
         </button>
-        <FaBars alt="Mobile menu button" className="menu-btn" onClick={() => setShowMenu(!showMenu)}/>
+        <FaBars className="menu-btn" onClick={() => setShowMenu(!showMenu)}/>
       </div>
       {menu}
     </header>
